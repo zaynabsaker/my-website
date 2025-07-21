@@ -1,0 +1,147 @@
+body {
+  font-family: "Arial", sans-serif;
+  direction: rtl;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+ background-image: url('62a783f6-83ec-4fd1-b764-38e5c1e432c8.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  color: #333;
+}
+
+
+header {
+  background-color: #004080;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+.items {
+    color: #333;
+  display: none;
+  margin-top: 20px;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.9); /* خلفية بيضاء شبه شفافة */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+ 
+.item img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item h3 {
+  margin: 15px 0 10px 0;
+}
+
+button {
+  background-color: #004080;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #002950;
+}
+.box {
+  background-image: url('images/food-bg.jpg'); /* ضع رابط الصورة هنا */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.food-box {
+  background-image: url('bibi.jpg.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.drink-box {
+  background-image: url('dce6b555-7500-4269-a03f-e40b397f9428.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.sweet-box {
+  background-image: url('48977f8c-16af-4077-b500-4b58b5a228fb.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.center-text{
+text-align: center;
+font-size: 48px;
+text-decoration: underline;
+font-weight: bold;
+}
+.item-row {
+ 
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6); /* خلفية شفافة بيضاء */
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  direction: rtl; /* لعرض النص من اليمين لليسار */
+  max-width: 900px; /* يمكنك تغييره حسب الحاجة */
+   
+  
+  
+}
+
+.item-name {
+  font-size: 24px;
+  
+}
+
+.order-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
